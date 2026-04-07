@@ -585,9 +585,12 @@ document.addEventListener('keydown',function(e){var lb=document.getElementById('
   </button>
 </div>
 
- style="display:none" onclick="lbClose(event)">
-  <span class="lb-close" onclick="lbHide()">✕</span>
-  <span class="lb-prev" onclick="lbMove(-1,event)">&#8592;</span>
-  <img class="lb-img" id="lb-img" src="" alt="">
-  <span class="lb-next" onclick="lbMove(1,event)">&#8594;</span>
-  <div class="lb-counter" id="lb-counte
+<div id="lb" style="display:none" onclick="lbClose(event)">
+  <span class="lb-close" onclick="lbHide()">✕</span>
+  <span class="lb-prev" onclick="lbMove(-1,event)">&#8592;</span>
+  <img class="lb-img" id="lb-img" src="" alt="">
+  <span class="lb-next" onclick="lbMove(1,event)">&#8594;</span>
+  <div class="lb-counter" id="lb-counter"></div>
+</div>
+</body>
+</html>
